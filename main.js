@@ -196,9 +196,9 @@ phina.define('MainScene', {
         }
       });
       if (this.blockGroup.children.length === 0) {
-        // if (confirm('クリアおめでとう！このゲームのメイキング動画を見る？')) {
-        //   window.location = "https://twitter.com/Toshwebservice";
-        // }
+        if (confirm('クリアおめでとう！このゲームの作成動画を見る？')) {
+          window.location = "https://www.youtube.com/watch?v=gHus-o2TRVM&feature=youtu.be";
+        }
         this.exit({
           score: this.score,
         });
